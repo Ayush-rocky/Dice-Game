@@ -10,9 +10,9 @@ image1.setAttribute("src",randomImageSourse);
 
 var randomnumber2 = Math.floor(Math.random() * 6) + 1;
 
-var randomnDiceImages = "./images/dice" + randomnumber2 + ".png";
+var randomnDiceImages2 = "./images/dice" + randomnumber2 + ".png";
 
-document.querySelectorAll("img")[1].setAttribute("src",randomImageSourse);
+document.querySelectorAll("img")[1].setAttribute("src",randomnDiceImages2);
 
 
 if (randomnumber1 > randomnumber2) {
